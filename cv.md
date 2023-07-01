@@ -16,3 +16,24 @@ I have a bachelor's degree in law. But programming has always attracted me, so I
 - CSS
 - Python
 - Git
+
+## Code Example
+
+```
+def say_hello():
+  print("Hello!")
+
+say_hello()
+```
+
+## Work experience
+
+Customer service manager
+
+## Education
+
+University: St. Petersburg State University of Economics
+
+## English
+
+А2
