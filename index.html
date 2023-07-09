@@ -5,9 +5,121 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>CV</title>
 </head>
 <body>
-    <p>hi world</p>
+    <header class="header">
+        <div class="container">
+            <nav class ="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Work experience</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code-example" class="nav-link">Code Example</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class = "main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="photo.jpg" alt="photo" width="200">
+                <h1>Dina Plat</h1>
+                <p>Frontend developer</p>
+                <hr>
+            </section>
+           
+            <section class="section" id="contacts">
+                <h2>Contacts</h2>
+                <ul class="contact-list">
+                    <li class="contact-item">Phone: +77058218597</li>
+                    <li class="contact-item">E-mail: dinaorlovsk@gmail.com</li>
+                    <li class="contact-item">Discord: dinadmitrievna</li>
+                </ul>
+                <hr>
+            </section>
+            
+            <section class="section" id="summary">
+                <h2>About Me</h2>
+                <p>I have a bachelor’s degree in law. But programming has always attracted me, 
+                    so I came to study at RS School. I already studied HTML, CSS, JS, Python on my own 
+                    3 years ago using videos and textbooks, and now I want to systematize my knowledge. 
+                    In fact, now I have entered the course for the third time. 
+                    This time I really want to finish the course and then study at the next stages 
+                    in order to change my profession.</p>
+                    <hr>
+            </section>
+
+            <section class="section" id="education">
+                <h2>Education</h2>
+                <p>University: St. Petersburg State University of Economics</p>
+                <hr>
+            </section>
+
+            <section class="section" id="experience">
+                <h2>Work experience</h2>
+                <p>Customer service manager</p>
+                <hr>
+            </section>
+
+            <section class="section" id="courses">
+                <h2>Courses</h2>
+                <ul class="courses-list">
+                    <li class="courses-item">Stepic - Программирование на Python</li>
+                    <li class="courses-item">RS School - JavaScript/Front-end. Stage 0</li>
+                </ul>
+                <hr>
+            </section>
+
+            <section class="section" id="skills">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-item">HTML</li>
+                    <li class="skills-item">CSS</li>
+                    <li class="skills-item">Python</li>
+                    <li class="skills-item">Git</li>
+                </ul>
+                <hr>
+            </section>
+
+            <section class="section" id="code-example">
+                <h2>Code Example</h2>
+                <pre>
+    def say_hello(): <br>
+        print("Hello!")<br>
+    say_hello()
+                </pre>
+                <hr>
+            </section>
+
+            <section class="section" id="languages">
+                <h2>Languages</h2>
+                <ul class="lang-list">
+                    <li class="lang-item">Russian - Native</li>
+                    <li class="lang-item">English - A2</li>
+                </ul>
+            </section>
+           
+        </div>
+    </main>
+
+    <footer class = "footer">
+        <div class="container">
+            <ul class="footer-list">
+                <li class="footer-item">2023</li>
+                <li class="footer-item"><a href="https://github.com/dina91" class="git-link">GitHub</a></li>
+                <li class="footer-item">
+                    <a href="https://rs.school/js/">
+                        <img src="https://rs.school/images/rs_school_js.svg" alt="RS logo" width="70">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
